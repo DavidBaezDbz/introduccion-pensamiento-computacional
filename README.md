@@ -1646,3 +1646,10 @@ def primera_letra(lista_de_palabras):
 
     return primeras_letras
 ```
+
+
+Docuemntacion [https://www.programiz.com/python-programming/assert-statement](https://www.programiz.com/python-programming/assert-statement)
+
+Programacion defensiva [https://aslisach.in/2019/what-is-defensive-programming/](https://aslisach.in/2019/what-is-defensive-programming/)
+
+Siguiente curso [Curso de POO y Algoritmos con Python](Curso de POO y Algoritmos con Python)
