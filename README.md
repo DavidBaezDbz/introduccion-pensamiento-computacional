@@ -1248,6 +1248,20 @@ b
 """Por esto debes tener mucho ojo al modificar las listas."""
 ```
 
+Más funciones
+* lista.extend(iterable) #extiende la lista con valores dentro de un iterable como un range()
+* lista.insert(i, ‘valor’) #Agrega un valor en la posición i y recorre todos los demás. No borra nada.
+* lista.pop(i) #Elimina valor en la posición i de la lista.
+* lista.remove(‘valor’) #Elimina el primer elemento con ese valor.
+* lista.clear() #Borra elementos en la lista.
+* lista.index(‘valor’) #Retorna posición del primer elemento con el valor.
+* lista.index(‘valor’, start, end) #Retorna posición del elemento con el valor dentro de los elementos desde posición start hasta posición end)
+* lista.count(‘valor’) #Cuenta cuántas veces esta ese valor en la lista.
+* lista.sort() #Ordena los elementos de mayor a menor.
+* lista.sort(reverse = True) #Ordena los elementos de menor a mayor.
+* lista.reverse() #Invierte los elementos
+* lista.copy() #Genera una copia de la lista. También útil para clonar listas.
+
 ### Clonación
 
 Casi siempre es mejor **clonar** una _lista_ en vez de mutarla, esto nos ayuda a disminuir el riesgo de pérdida de la información. Para **clonar** una _lista_ podemos utilizar rebanadas (slices) o la función **list.**
